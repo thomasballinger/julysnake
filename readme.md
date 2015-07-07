@@ -1,6 +1,4 @@
-
-
-
+This is a snake game. 
 
 * there is a snake
 * snake can move
