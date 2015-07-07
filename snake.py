@@ -1,6 +1,11 @@
 
 
 board = [[0] * 10 for _ in range(10)]
-print board
+
+def display(board):
+    for row in board:
+        print row
+
+display(board)
 
 
