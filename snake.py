@@ -1,6 +1,7 @@
+import random
 
-
-board = [[1] * 10 for _ in range(10)]
+board = [[random.choice([0, 1])]
+         for _ in range(10)]
 
 def display(board):
     print '-'*len(board[0])
